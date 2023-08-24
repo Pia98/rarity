@@ -1,0 +1,79 @@
+//canvas contains the globe gl globe
+.canvas_globe {
+    position: absolute;
+    top: 0;
+}
+
+.bdd_wrapper{
+    position: fixed;
+    min-height: 400px;
+    min-width: 200px;
+    margin-top: 160px;
+    margin-left: 60px;
+}
+
+.bdd_wrapper2{
+    position: fixed;
+    min-height: 400px;
+    min-width: 200px;
+    margin-top: 215px;
+    margin-left: 35px;
+}
+
+.dd_button{
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.7));
+    pointer-events: auto;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+ }
+
+//styles of drop down
+.dd_container {
+    height: 330px; //yes this is fixed...
+    width: 200px;
+    margin-top: 20px;
+    background-color: $white;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: $regular-box-shadow;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden !important;
+}
+
+.dd_img{
+    width: 200px;
+}
+
+.dd_header{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: $accent-color1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dd_title{
+    margin: 10px;
+}
+
+.dd_text{
+    flex-shrink: 1;
+    max-height: 40%;
+    padding: 10px;
+    padding-bottom: 18px;
+    text-align: center;
+    text-overflow: ellipsis;
+    display:inline-block;
+    overflow: hidden !important;
+    font-family: 'Hind-Regular';
+    font-size: 14px;
+    color: $black;
+    position: relative;
+    text-decoration: none;
+}

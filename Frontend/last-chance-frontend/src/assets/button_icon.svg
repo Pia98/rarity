@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59" height="59" viewBox="0 0 59 59">
+    <g data-name="Point Of Interest">
+        <g data-name="Ellipse 3" style="stroke:#fff;stroke-width:5px;fill:none">
+            <circle cx="29.5" cy="29.5" r="29.5" style="stroke:none"/>
+            <circle cx="29.5" cy="29.5" r="27" style="fill:none"/>
+        </g>
+        <g data-name="Ellipse 4" transform="translate(12 12)" style="stroke:#fff;stroke-width:5px;fill:none">
+            <circle cx="17.5" cy="17.5" r="17.5" style="stroke:none"/>
+            <circle cx="17.5" cy="17.5" r="15" style="fill:none"/>
+        </g>
+    </g>
+</svg>

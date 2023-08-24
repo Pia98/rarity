@@ -1,0 +1,98 @@
+.details_bg {
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.info_container {
+    flex-grow: 1;
+    max-width: 470px;
+    max-height: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    overflow-y: scroll;
+    padding-right: 10px;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: 0;
+}
+
+.content_box {
+    background-color: $white;
+    border-radius: 20px;
+    box-shadow: $regular-box-shadow;
+    display: flex;
+    flex-direction: column;
+
+    .box_title {
+        background-color: $accent-color1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .box_text {
+        flex-grow: 1;
+        margin: 30px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        text-align: justify;
+    }
+}
+
+.number_box {
+    background-color: $white;
+    border-radius: 30px;
+    box-shadow: $regular-box-shadow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .box_title {
+        margin-left: 30px;
+        flex-grow: 1;
+    }
+
+    .box_text {
+        background-color: $accent-color2;
+        flex-grow: 1;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.scroll_icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.animal_title {
+    margin: 15px;
+}
+
+.spacer1 {
+    min-width: 10px;
+    flex-shrink: 1;
+}
+
+.spacer2 {
+    max-width: 45px;
+    min-width: 10px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.spacer3 {
+    flex-grow: 3;
+    min-height: 20vh;
+}

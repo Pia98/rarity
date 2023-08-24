@@ -1,0 +1,93 @@
+/** in this file global styles are defined
+**/
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+overflow: hidden; /* Hide scrollbars */
+}
+
+main {
+  position: relative;
+}
+
+//------------------------------ BACKGROUNDS ------------------------------------
+.gradient {
+
+    /* can be treated like a fallback */
+    background-color: $black_transparent;
+
+    /* will be "on top", if browser supports it */
+    background-image: linear-gradient($black_transparent, $transparent);
+
+    /* these will reset other properties, like background-position, but it does know what you mean */
+    background: $black;
+    background: linear-gradient($black_transparent, $transparent);
+
+}
+
+.page_container{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+//--------------------------- FONTS and TEXTS ------------------------------------------
+h1 {
+  font-family: 'Hind-Bold';
+  font-size: 22pt;
+  color: $white;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Hind-Light';
+  font-size: 20pt;
+  color: $light-grey;
+  margin-bottom: 0;
+}
+
+.orange {
+  color: $accent-color1 !important;
+}
+
+.h2_black {
+  font-family: 'Hind-Bold';
+  font-size: 36pt;
+  color: $black_light;
+}
+
+h3 {
+  font-family: 'Hind-Bold';
+  font-size: 17pt;
+  color: $white;
+  margin-bottom: 0;
+}
+
+b {
+  font-family: 'Hind-Regular';
+  font-size: 10pt;
+  color: $black;
+}
+
+p {
+  font-family: 'Hind-Regular';
+  font-size: 10pt;
+  color: $black;
+}
+
+//default font
+* {
+  font-family: 'Hind-Regular';
+  font-size: 10pt;
+  color: $black;
+}

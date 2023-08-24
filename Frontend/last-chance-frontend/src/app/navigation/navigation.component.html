@@ -1,0 +1,19 @@
+<div class="nav_container">
+
+    <div class="logo" [routerLink]="['/home']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        <h1>RARITY</h1>
+    </div>
+
+    <div class="right_container">
+        <div class="home" [routerLink]="['/home']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+            <img alt="globe-logo" src="/assets/globe_icon.svg">
+        </div>
+
+        <div class="line">
+            <h2>|</h2>
+        </div>
+        
+        <div class="about" [routerLink]="['/about']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+            <h2>ABOUT</h2>
+        </div>
+    </div>

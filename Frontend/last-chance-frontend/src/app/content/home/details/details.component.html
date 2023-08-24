@@ -1,0 +1,61 @@
+<div class="nav_bg_home gradient"></div>
+<div class="page_container details_bg" *ngIf="isLoaded" [ngStyle]="{'background-image': 'url('+ Animal._image + ')'}">
+        <div class="spacer1"></div>
+        <div class="info_container" id="scrollParent">
+                <div class="spacer3"></div>
+                <div class="content_box">
+                        <div class="box_title">
+                                <h3 class="animal_title">
+                                        {{Animal.name.toUpperCase()}}
+                                </h3>
+                        </div>
+                        <div class="box_text">
+                                {{Animal.text}}
+                        </div>
+                </div>
+
+                <div class="scroll_icon" (click)="scrollToBottom()">
+                        <img src="/assets/scroll_icon.svg"/>
+                </div>
+
+                <div class="number_box">
+                        <div class="box_title">
+                                <h3 class="animal_title orange">
+                                        THREAD LEVEL
+                                </h3>
+                        </div>
+                        <div class="box_text">
+                                <h3 class="animal_title">
+                                        {{Animal.threat_level.toUpperCase()}}
+                                </h3>
+                        </div>
+                </div>
+
+                <div class="number_box">
+                        <div class="box_title">
+                                <h3 class="animal_title orange">
+                                        REMAINING NUMBER
+                                </h3>
+                        </div>
+                        <div class="box_text">
+                                <h3 class="animal_title">
+                                       {{Animal.remaining_animals_numbers}}
+                                </h3>
+                        </div>
+                </div>
+
+                <div class="content_box">
+                        <div class="box_title">
+                                <h3 class="animal_title">
+                                        CAUSE OF DECLINE
+                                </h3>
+                        </div>
+                        <div class="box_text">
+                                {{Animal.cause_danger}}
+                        </div>
+                </div>
+
+                <div class="spacer3"></div>
+        </div>
+        <div class="spacer2"></div>
+</div>
