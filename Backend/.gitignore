@@ -1,0 +1,6 @@
+/venv/
+/.idea/
+#/bedrohteTiere/db.sqlite3
+/Include
+/Lib
+/Scripts
